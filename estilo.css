@@ -1,11 +1,13 @@
 body{
     background-image: linear-gradient(45deg,red,rgba(67, 67, 197, 0.733),green,black);
     color: #fff;
-    width: 90%;
     height: 100%;
     background-size: 150% 150%;
     position: relative;
     animation: cambiar 10s ease infinite;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-repeat: no-repeat;
 }
 
 h1{
@@ -44,7 +46,9 @@ h3{
     grid-gap: 20px;
 }
 .inicio{
+    display: block;
     text-align: right;
+    
 }
 .del{
     margin-top: 100px;
