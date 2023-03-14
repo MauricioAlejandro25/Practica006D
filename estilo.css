@@ -1,0 +1,62 @@
+body{
+    background-image: linear-gradient(45deg,red,rgba(67, 67, 197, 0.733),green,black);
+    color: #fff;
+    width: 90%;
+    height: 100%;
+    background-size: 150% 150%;
+    position: relative;
+    animation: cambiar 10s ease infinite;
+}
+
+h1{
+    font-size: 4rem;
+    letter-spacing: 2px;
+    border: solid 3px #fff;
+    border-radius: 25px;
+    top: 50%;
+    left: 50%;
+    padding: 9px;
+    
+}
+.titulo{
+    text-align: center;
+}
+.parra{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.tabla{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ima{
+    text-align: center;
+
+}
+#contenido{
+    display: flex;
+    justify-content: center;
+    grid-gap: 20px;
+}
+.inicio{
+    text-align: right;
+}
+.del{
+    margin-top: 100px;
+    display: flex;
+
+}
+.tabla2{
+    padding: left 25px;
+    font-size: 30px;
+}
+@keyframes cambiar {
+    0% {background-position:0 50% ;}
+    50% {background-position:100% 50% ;}
+    100% {background-position:0 50% ;}
+}
