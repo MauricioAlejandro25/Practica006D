@@ -1,1 +1,0 @@
-# Practica006D
